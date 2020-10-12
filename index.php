@@ -9,7 +9,7 @@ require "header.php";
         <div class="container-fluid">
             <?php
             if (isset($_SESSION['userUid'])) {
-                echo '<p>You are logged in</p>';
+                echo '<p>Lorem</p>';
             } else {
                 echo '<p>You are logged out</p>';
             }
